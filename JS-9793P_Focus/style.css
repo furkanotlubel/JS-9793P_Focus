@@ -1,0 +1,72 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background: url(img/bg.jpg);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 5rem;
+    height: 40vh;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20rem;
+}
+
+#incrementButton {
+    cursor: pointer;
+    padding: .5rem;
+    width: 135px;
+    background-color: #c1c1c31b;
+    border-radius: 5px;
+    margin-top: 1rem;
+    border: .5px solid #333;
+    transition: all .3s ease-in;
+}
+
+#incrementButton:hover {
+    background-color: #333;
+    color: aqua;
+}
+
+.music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c1c1c325;
+    padding: 1rem;
+    margin: 0 1rem;
+    margin-top: 10rem;
+    width: 150px;
+    border-radius: 5px;
+    border: .5px solid #333;
+    transition: all .3s ease;
+}
+
+button:hover {
+
+    background-color: #333;
+    color: #fff;
+}

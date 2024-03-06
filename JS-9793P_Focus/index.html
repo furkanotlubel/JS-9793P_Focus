@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOCUS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Çalışmaya başladığınızdan beri <br> telefonunuz <span id="counter"> 0 </span> &nbsp;kere dikkatinizi
+            dağıttı.
+        </h1>
+        <button id="incrementButton"> UP + </button>
+
+        <div class="music">
+            <button onclick="play('A')">
+                <p>relaxingFire</p> &nbsp;
+                <i class="bi bi-fire">
+                    <audio id="musicA" src="sound/fire.mp3"></audio>
+                </i>
+            </button>
+            <button onclick="play('B')">
+                <p>relaxingBirds</p> &nbsp;
+                <i class="bi bi-umbrella-fill">
+                    <audio id="musicB" src="sound/birds.mp3"></audio>
+                </i>
+            </button>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
